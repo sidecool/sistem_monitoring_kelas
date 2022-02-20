@@ -1,0 +1,21 @@
+Error: Server.exe has stopped working
+
+Error ini menunjukkan ada kesalahan ketika membuka aplikasi
+
+----------------------------------------------------------------------------------------
+
+Pesan Error: Exception EZSQLException in module Server.exe at 0010B7AD.
+             SQL Error: Can't connect to MySQL server on 'localhost' (10061).
+
+Error ini menunjukkan mysql belum running, 
+solusi pastikan mysql sudah jalan, jika menggunakan xampp tinggal klik start pada mysql
+
+----------------------------------------------------------------------------------------
+
+Pesan Error: Exception EZSQLException in module Server.exe at 0010B7AD.
+             SQL Error: Unknown database 'dbmonitoring'.
+
+Error ini menunjukkan mysql sudah running, tapi database belum ditemukan/dibuat
+Solusi buat database dengan nama database sesuai dengan nama database pada error
+
+----------------------------------------------------------------------------------------
